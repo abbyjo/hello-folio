@@ -29,3 +29,14 @@ ul {
 #avatar {
     width:25%;
 }
+
+/* Work Section */
+
+.card {
+    display: flex;
+    flex-direction: row;  
+}
+
+.card img {
+    width: 25%;
+}
