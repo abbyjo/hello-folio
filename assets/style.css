@@ -1,0 +1,16 @@
+
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+    background-color: aquamarine;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
