@@ -3,14 +3,27 @@
     font-family: Helvetica, sans-serif;
 }
 
+/* Heading and Navigation  */
+
 h1 {
     display: flex;
     justify-content:center;
-    padding: 50px;
+    padding: 100px;
     background-color: aquamarine;
 }
 ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
+}
+
+/* About Me Section */
+
+ #about-me  {
+    display: flex;
+    justify-content: space-between;
+}
+
+#avatar {
+    width:25%;
 }
