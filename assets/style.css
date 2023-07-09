@@ -3,6 +3,7 @@
     font-family: Helvetica, sans-serif;
     list-style: none;
     margin: 0px;
+    text-decoration: none;
 }
 
 /* Heading and Navigation  */
@@ -17,7 +18,9 @@ h1 {
     display: flex;
     justify-content:center;
     padding: 8%;
-    background-color: #ffe37f;
+    background-image: url("./images/colorlights.jpg");
+    background-size:cover;
+    /* background-color: #ffe37f; */
 }
 
 /* About Me Section */
