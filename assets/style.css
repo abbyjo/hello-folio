@@ -6,11 +6,16 @@
     text-decoration: none;
 }
 
-/* Heading and Navigation  */
-
 h1, h2, h3, header {
     font-variant: small-caps;
 }
+
+h2 {
+    text-align: right;
+    color: #f98094;
+}
+
+/* Heading and Navigation  */
 
 header ul {
     display: flex;
@@ -18,13 +23,16 @@ header ul {
     background-color: #ffed87;
     padding: 2%;
 }
+
 header a {
     color: black;
     font-weight: bold;
 }
+
 header a:hover {
     color: hotpink;
 }
+
 h1 {
     font-size: 400%;
     display: flex;
@@ -42,17 +50,14 @@ h1 {
     justify-content: space-between;
     padding: 4%;
 }
+
 #about-me img, p, h2 {
     padding: 15px;
 }
+
 #avatar {
     width:25%;
     border-radius: 40px;
-}
-
-#about-me h2 {
-    text-align: right;
-    color: #f98094;
 }
 
 #about-me p {
@@ -63,11 +68,12 @@ h1 {
 
 /* Work Section */
 
-.card {
+#work {
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
+    padding:4%;
 }
 
-.card img {
-    width: 25%;
-}
+/* .card img {
+    width: 35%;
+} */
