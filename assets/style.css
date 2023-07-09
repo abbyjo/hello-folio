@@ -8,9 +8,10 @@
 
 /* Heading and Navigation  */
 
-header {
+h1, h2, h3, header {
     font-variant: small-caps;
 }
+
 header ul {
     display: flex;
     justify-content: space-between;
@@ -36,7 +37,7 @@ h1 {
 
 /* About Me Section */
 
- #about-me  {
+#about-me  {
     display: flex;
     justify-content: space-between;
     padding: 4%;
@@ -44,8 +45,13 @@ h1 {
 
 #avatar {
     width:25%;
+    border-radius: 40px;
 }
 
+#about-me h2 {
+    text-align: right;
+    color: #f98094;
+}
 /* Work Section */
 
 .card {
