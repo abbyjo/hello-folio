@@ -74,6 +74,18 @@ h1 {
     padding:4%;
 }
 
-/* .card img {
-    width: 35%;
-} */
+.card, .card-main {
+    position: relative;
+    width: 100%;
+}
+#work h3 {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    left: 0;
+}
+h3 span {
+    color: white;
+    background: #000000a9;
+    padding: 10px;
+}
