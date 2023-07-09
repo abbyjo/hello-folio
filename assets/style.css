@@ -42,7 +42,9 @@ h1 {
     justify-content: space-between;
     padding: 4%;
 }
-
+#about-me img, p, h2 {
+    padding: 15px;
+}
 #avatar {
     width:25%;
     border-radius: 40px;
@@ -52,6 +54,13 @@ h1 {
     text-align: right;
     color: #f98094;
 }
+
+#about-me p {
+    line-height: 1.5;
+    font-family: monospace;
+    font-size: 16px;
+}
+
 /* Work Section */
 
 .card {
