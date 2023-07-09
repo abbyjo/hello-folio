@@ -8,19 +8,30 @@
 
 /* Heading and Navigation  */
 
-ul {
+header {
+    font-variant: small-caps;
+}
+header ul {
     display: flex;
     justify-content: space-between;
-    background-color: #ffc2d1;
+    background-color: #ffed87;
     padding: 2%;
 }
+header a {
+    color: black;
+    font-weight: bold;
+}
+header a:hover {
+    color: hotpink;
+}
 h1 {
+    font-size: 400%;
     display: flex;
     justify-content:center;
     padding: 8%;
     background-image: url("./images/colorlights.jpg");
     background-size:cover;
-    /* background-color: #ffe37f; */
+    background-color: #ffe37f;
 }
 
 /* About Me Section */
