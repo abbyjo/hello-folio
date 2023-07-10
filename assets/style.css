@@ -69,10 +69,21 @@ h1 {
 /* Work Section */
 #work {
     display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
     padding: 4%;
-    /* flex-wrap: wrap; */
 }
-
+.card {
+    flex: 1 1 20%;
+    margin: 5px;
+}
+.card-main {
+    flex: 2 1 100%;
+    margin: 10px;
+}
+#work img {
+    border-radius: 40px;
+}
 /* Work Section: Image Captions */
 .card, .card-main {
     position: relative;
