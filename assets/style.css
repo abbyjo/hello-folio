@@ -89,3 +89,38 @@ h3 span {
     background: #000000a9;
     padding: 10px;
 }
+
+/* Contact and Footer Sections */
+
+#contact {
+    display: flex;
+    padding: 4%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact a {
+    padding-left: 25px;
+    color:#f98094;
+}
+
+#contact a:hover {
+    color:#f0c648;
+}
+footer {
+    padding: 20px;
+    text-align: right;
+    background:#ffed87
+}
+
+footer a {
+    color:hotpink;
+}
+footer a:hover {
+    color:#000000
+}
