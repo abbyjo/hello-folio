@@ -14,7 +14,9 @@ h2 {
     text-align: right;
     color: #f98094;
 }
-
+h2:hover::after, footer a:hover::before {
+    content:"⭐";
+}
 /* Heading and Navigation  */
 
 header ul {
@@ -86,6 +88,10 @@ h1 {
 }
 #work img:hover {
     opacity: 0.5;
+}
+#work .card img {
+    object-fit: cover;
+    height: 100%;
 }
 /* Work Section: Image Captions */
 .card, .card-main {
