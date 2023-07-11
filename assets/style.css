@@ -84,6 +84,9 @@ h1 {
 #work img {
     border-radius: 40px;
 }
+#work img:hover {
+    opacity: 0.5;
+}
 /* Work Section: Image Captions */
 .card, .card-main {
     position: relative;
