@@ -116,9 +116,12 @@ h3 span:nth-child(even) {
     padding-top:0;
     text-align: center;
 }
+h3 {
+    font-size: 150%
+}
 /* Contact and Footer Sections */
 
-#contact {
+#contact ul{
     display: flex;
     padding: 4%;
     align-items: center;
@@ -126,8 +129,7 @@ h3 span:nth-child(even) {
 }
 
 #contact ul{
-    display: flex;
-    justify-content: space-between;
+    font-size: 125%;
 }
 
 #contact a {
