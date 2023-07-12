@@ -11,8 +11,9 @@ h1, h2, h3, header {
 }
 
 h2 {
-    text-align: right;
+    text-align: center;
     color: #f98094;
+    font-size: 200%;
 }
 h2:hover::after, footer a:hover::before {
     content:"⭐";
@@ -37,8 +38,7 @@ header a:hover {
 
 h1 {
     font-size: 400%;
-    display: flex;
-    justify-content:center;
+    text-align: center;
     padding: 8%;
     background-image: url("./images/colorlights.jpg");
     background-size:cover;
@@ -73,14 +73,15 @@ h1 {
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-    padding: 4%;
+    padding: 10%;
+    padding-top: 2%;
 }
 .card {
     flex: 1 1 15%;
     margin: 5px;
 }
 .card-main {
-    flex: 2 1 77%;
+    flex: 2 1 100%;
     margin: 10px;
 }
 #work img {
@@ -109,7 +110,12 @@ h3 span {
     padding: 10px;
     display: block;
 }
-
+h3 span:nth-child(even) {
+    font-size: 75%;
+    font-weight: 200;
+    padding-top:0;
+    text-align: center;
+}
 /* Contact and Footer Sections */
 
 #contact {
