@@ -7,7 +7,7 @@ This page was created to showcase my upcoming projects as well as to share a lit
 N/A 
 
 ## Usage 
-You can click the three links at the very top to navigate to different sections. The "Work" section is full of images that upon clicking will take you to the deployed app. At the very bottom there is a link that will take you back to the very top. On desktop you can hover over the section titles for a little surprise!⭐
+Visit the deployed page <a href="https://abbyjo.github.io/hello-folio/">here!</a> You can click the three links at the very top to navigate to different sections. The "Work" section is full of images that upon clicking will take you to the deployed app. At the very bottom there is a link that will take you back to the very top. On desktop you can hover over the section titles for a little surprise!⭐
  
   ![Screenshot of yellow and white webpage](assets/images/screenshot.jpg)
 
